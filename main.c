@@ -79,7 +79,10 @@ int main (){
             CapturaPersonajes();
             break;
         case '4':
-            
+            printf("\t+-------------------------------------+\n");
+            printf("\t|         MOSTRAR PERSONAJES          |\n");
+            printf("\t+-------------------------------------+\n\n");
+            MostrarPersonajes();
             break;
         default:
             break;

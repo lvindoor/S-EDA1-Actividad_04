@@ -33,4 +33,15 @@ void CapturaPersonajes(){
     }
 }
 
+void MostrarPersonajes(){
+    for (size_t i = 0; i < cont; i++)
+    {
+        printf("\t             PERSONAJE %li            \n\n", i+1);
+        printf("\tNombre: %s\n", Personajes[i].nombre);
+        printf("\tTipo: %s\n", Personajes[i].tipo);
+        printf("\tFuerza: %f\n", Personajes[i].fuerza);
+        printf("\tSalud: %i\n\n", Personajes[i].salud);
+    }
+    
+}
 #endif 
