@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "Personaje.h"
 
 void capturarEnteros(){
     int enteros[5];
@@ -72,7 +73,10 @@ int main (){
             getchar();
             break;
         case '3':
-            
+            printf("\t+-------------------------------------+\n");
+            printf("\t|         AGREGAR PERSONAJES          |\n");
+            printf("\t+-------------------------------------+\n\n");
+            CapturaPersonajes();
             break;
         case '4':
             
